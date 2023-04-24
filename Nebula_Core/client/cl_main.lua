@@ -177,6 +177,12 @@ RegisterCommand("changeemergencysoundsiren", function()
     TriggerEvent('capri_els:change_sound_siren')
 end, false)
 RegisterKeyMapping( "changeemergencysoundsiren", "Siren : Changer le son de la siren", "keyboard", Config.keyDefaults.changeSoundSiren)
+
+RegisterCommand("openmegaphoneemergencymenu", function()
+    TriggerEvent('capri_els:open_emergency_voice_menu')
+end, false)
+RegisterKeyMapping( "openmegaphoneemergencymenu", "Siren : Ouvrir le menu des voix", "keyboard", Config.keyDefaults.openMenuEmergencyVoice)
+
 -- End Siren Management
 
 -- Tablette

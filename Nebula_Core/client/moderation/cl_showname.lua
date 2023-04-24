@@ -111,6 +111,10 @@ local function DrawESP(pos, upAdd, text)
 	DrawText(x, y)
 end
 
+local function CanAccessModeration()
+	return exports['Nebula_Core']:CanAccessModeration()	
+end
+
 function CheckNameJob()
 	if toogle then
 		ESX.TriggerServerCallback('esx_jobcounter:returnTableMetier',function(valid)
@@ -118,39 +122,6 @@ function CheckNameJob()
 				InfoSaved[v.id] = {name = ((v.group ~= "user" and v.name) or (v.firstname .. " " .. v.lastname)), job = JobColor(v.job), job2 = JobColor(v.job2), group = ((v.group ~= "user" and "~c~¦") or ""), ping = v.ping }
 			end
 		end, "tabJob", "players")
-	end
-end
-
-local function isZeus()
-	local zModel = GetHashKey("ig_ary_02")
-	local Pass = nil
-
-	ESX.TriggerServerCallback('IsZeus', function (IsAce)
-		Pass = IsAce
-	end)
-
-	while Pass == nil do
-		Citizen.Wait(100)
-	end
-
-	if Pass then
-		TriggerServerEvent('Admin:IsZeus', true)
-		return true
-	elseif IsModelValid(zModel) then
-		if not HasModelLoaded(zModel) then
-			RequestModel(zModel)
-			while not HasModelLoaded(zModel) do
-				Citizen.Wait(0)
-			end
-		end
-		
-		if IsPedModel(PlayerPedId(), zModel) then
-			TriggerServerEvent('Admin:IsZeus', true)
-			return true
-		else
-			Core.Main.ShowNotification("Vous devez être en mode modération !")
-			return false
-		end
 	end
 end
 
@@ -229,7 +200,7 @@ end
 RegisterNetEvent('esx_showname:Enable')
 AddEventHandler('esx_showname:Enable', function(isSpecialAllowed)
 	TriggerServerEvent('CoreLog:SendDiscordLog', 'Afficher / Cacher Noms', GetPlayerName(playerID) .. " a afficher les noms.", 'Green')
-	if isZeus() or isSpecialAllowed then
+	if CanAccessModeration() then
 		CheckNameJob()
 		toogle = true
 		showid()

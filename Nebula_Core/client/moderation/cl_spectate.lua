@@ -358,7 +358,6 @@ end
 
 RegisterNetEvent('Core:moderation:spectate')
 AddEventHandler('Core:moderation:spectate', function(playerTarget)
-	print('enter', playerTarget)
 	if InSpectatorMode and TargetSpectate then
 		resetspectate()
 	else

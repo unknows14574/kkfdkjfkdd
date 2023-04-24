@@ -211,6 +211,9 @@ Config.keyDefaults =
 	
 	-- Dans le coffre
     InTrunk = "l",
+	
+	-- OpenMenuEmergencyVoice
+    openMenuEmergencyVoice = "4",
 
 	-- ToggleSiren
     toggleSiren = "3",
@@ -292,6 +295,7 @@ Config.Discord = {
 			["Tirs"] = "https://discord.com/api/webhooks/773240397710491649/iD4mG-_LZo0DbAtwaqjMEPBQ9EZTwsEMHdX_98C-lcWGDwBihx5_2C2Ytq7i6sMx770t",
 			["NoClip"] = "https://discord.com/api/webhooks/773978682741358622/mAo1KSwakQKhsarwWEC4SehZ83Gr4SvrUCoK-Ce4OTYWc8ZqaXRBpmcTK8Nx2rJ1lzMd",
 			["SetJob"] = "https://discord.com/api/webhooks/967811764051906620/gGxBBZw1HbzleUXuGLtLgFUMuqM5qtxNNmxyokBC5q4mCN8GTSjUToqgLU-DWhoDiar7",
+			["SetGroup"] = "https://discord.com/api/webhooks/1060242696960233552/SmaDghXs0MhVDIMHlz5UYCMkq4K1fdKZToZXUj6nQwG-os1rFxXDtiuiPIKfyI2cOFU9",
 			["Réanimation"] = "https://discord.com/api/webhooks/774010083599188021/ecdgEKnQ4BWdd6qvjF6ogt8s0uSZ7CsWIC9_eLkIBqsEBP7VXn6MTIw7UgMSqllEQ3WK",
 			["Afficher / Cacher Noms"] = "https://discord.com/api/webhooks/774010043901280286/dLsi9mWoQ5hPhF1Svw0bx-lPHN6nbiVAFiquJS2Vp4pqDnEkGelCASE_Rx5ZZEM7Qvqs",
 			["Téléporation"] = "https://discord.com/api/webhooks/774343104496664589/UiXGx5a1XkUIJ88sSdLONzT78XdCxBk8B069hNljap6J27VVM430sEnu1cj54hlKJqCk",
@@ -336,6 +340,10 @@ Config.Discord = {
 			["Coupe bracelet"] = "https://discord.com/api/webhooks/789921420367888394/H5yejSB1qpy69HXe2O_6JsZadCUD4_P0nS11OXXtETkTQPeo8x7Se5iGDTPndepZrofF", 
 			["Receleur véhicule"] = "https://discord.com/api/webhooks/1025528454650794086/u1FDieFP34-Q5ehNZbdPoVQdlzD-bGqQvlVrXXJB2Pm_CkZm54D-a9rUiMdX28Zo_tM1",
 			["Cuivre"] = "https://discord.com/api/webhooks/1027268697288622200/rvrN0i-LGqOvveWNqaaIwHGNiLYkjvR9epvwDOQ_Zeyd67Xp1fCyk4pL_FMTBf_35eV5",
+			["Récolte drogue"] = "https://discord.com/api/webhooks/1055255121266741348/M1-j1WubNTrV2H6_R6p5mspZl-n8e5Fpzbq958Yy4cdySeDNtksUPhE4t_rtFabZuUZF",
+			["Utilisation labo"] = "https://discord.com/api/webhooks/1055255223117033573/QrcXseQtW_kp9uC7Tch-jaSbszwwJwowFyv-oh9FL_RhNKqYc9hKbZjHjV-9H-ee3M3d",
+			["Quincailler"] = "https://discord.com/api/webhooks/1055265921838616716/7C_rsPsU70l4f3zG-gsS1R-yuLBt1R7OfbyoVIQeCboLYxZCIISbKq0ySnNNnarN4rHm",
+			["Receleur objet volé"] = "https://discord.com/api/webhooks/1055271475898232862/cMVOT4tr1gbVjyMJRcKLC7CA9AzDqFkR_VpTwnxWGr7rKxduqrGnC2H54p2BrqA2FXme",
 
 			["Centrale 911"] = "https://discord.com/api/webhooks/950103766756118578/W7qpXc1vIKfAmRQMsZELYbxfVPSvbK7lrF1m9GOWsZqQ8arAeAP9XqrjxsyipD636KpE",
 

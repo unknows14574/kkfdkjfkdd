@@ -568,7 +568,9 @@ function OpenGaragaPV(garage, Pos, Ped, StateToAttribute, IsJob)
 											Citizen.Wait(500)
 											TriggerEvent('harybo_permanent:registerveh', callback_vehicle)
 											Core.Main.ShowAdvancedNotification("Garage", "Notification", 'Votre véhicule ' .. g.info.name.name .. " vient d'être sorti", "CHAR_MP_MORS_MUTUAL", 1, false, true, 30)
-											TriggerEvent('Nebula_hud:ForceVehiculeHud', true)
+											if not Ped then
+												TriggerEvent('Nebula_hud:ForceVehiculeHud', true)												
+											end
 										else
 											Core.Main.ShowAdvancedNotification("Garage", "Notification", 'Sortie Encombré', "CHAR_MP_MORS_MUTUAL", 1, false, true, 130)
 										end

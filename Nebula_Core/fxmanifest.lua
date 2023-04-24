@@ -88,6 +88,7 @@ client_scripts {
 	"client/moderation/cl_spectate.lua",
 	"client/moderation/cl_showname.lua",
 	"client/moderation/cl_menumoderation.lua",
+	"client/moderation/cl_moderation.lua",
 
 	--sitonprops
 	"client/sitonprops/cl_sitonprops.lua",
@@ -121,6 +122,7 @@ server_scripts {
 	"server/sv_discord.lua",
 	"server/sv_contrib.lua",
 	"server/sv_counter.lua",
+	"server/sv_moderation.lua",
 }
 
 server_export "DiscordIsRolePresent"

@@ -1218,6 +1218,7 @@ iV.Zones = {
     Pos    = { x = 762.99, y = -792.26, z = 26.28-0.98,  Angle  = 182.0 },
     TypeZone = iV.Blips.Garage,
     Action   = true,
+    IsJob = 'arcade'
   },
 
   Blackwood_Garage = {
@@ -1225,6 +1226,7 @@ iV.Zones = {
     Pos    = { x = -306.39, y = 6282.95, z = 31.49-0.98,  Angle  = 132.12 },
     TypeZone = iV.Blips.Garage,
     Action   = true,
+    IsJob = 'diner'
   },
 
   PizzaThis_Garage = {
@@ -1240,6 +1242,7 @@ iV.Zones = {
     Pos   = { x = -565.71, y = 318.81, z = 84.39-0.98,  Angle = 91.61 },
     TypeZone = iV.Blips.Garage,
     Action   = true,
+    IsJob = 'tequi'
   },
 
   GOUV_avant = {
@@ -1261,20 +1264,23 @@ iV.Zones = {
     Pos   = { x = -762.7, y = -986.93, z = 15.17 - 0.98, Angle = 30.58  },
     TypeZone = iV.Blips.Garage,
     Action   = true,
+    IsJob = 'flywheels'
   },	
 
   bahama = {
-  name  = "Bahama Garage",
-  Pos   = { x = -1411.85, y = -591.79, z = 29.37,  Angle = 300.68 }, 
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Bahama Garage",
+    Pos   = { x = -1411.85, y = -591.79, z = 29.37,  Angle = 300.68 }, 
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'bahama'
   },
 
   yellowjack = {
-  name  = "Yellow Jack Garage",
-  Pos   = { x = 2006.03, y = 3072.19, z = 46.05,  Angle = 57.97 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Yellow Jack Garage",
+    Pos   = { x = 2006.03, y = 3072.19, z = 46.05,  Angle = 57.97 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'yellow'
   },
 
   Tabac = {
@@ -1285,75 +1291,65 @@ iV.Zones = {
   },
 
   Tabac_Magasin = {
-  name  = "Garage Magasin Tabac",
-  Pos   = { x = -50.31, y = -1047.34, z = 27.07,  Angle = 67.63 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
-  },
-
-  Journaliste = {
-  name  = "Garage Journaliste",
-  Pos   = { x = -1068.43, y = -233.14, z = 32.36, Angle = 209.28 }, 
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
-  },
-
-    Journaliste2 = {
-  name  = "Garage Dépot",
-  Pos   = { x = -1051.02, y = -250.11, z = 36.94, Angle = 207.33 }, 
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage Magasin Tabac",
+    Pos   = { x = -50.31, y = -1047.34, z = 27.07,  Angle = 67.63 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'tabac'
   },
 
   BWS = {
-  name  = "Garage Blackwoods Saloon",
-  Pos   = { x = -301.81, y = 6254.87, z = 30.50,  Angle = 223.45 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Miky", PedType = 4, Hash = "s_m_y_doorman_01", x = -60.72, y = 6390.08, z = 30.60,  Angle = 134.54, Scena = "WORLD_HUMAN_GUARD_STAND_CLUBHOUSE" },
-  Action   = false,
+    name  = "Garage Blackwoods Saloon",
+    Pos   = { x = -301.81, y = 6254.87, z = 30.50,  Angle = 223.45 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Miky", PedType = 4, Hash = "s_m_y_doorman_01", x = -60.72, y = 6390.08, z = 30.60,  Angle = 134.54, Scena = "WORLD_HUMAN_GUARD_STAND_CLUBHOUSE" },
+    Action   = false,
   },
 
   Unicorn = {
-  name  = "Garage Unicorn",
-  Pos   = { x = 146.44, y = -1280.21, z = 28.05, Angle = 301.29 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage Unicorn",
+    Pos   = { x = 146.44, y = -1280.21, z = 28.05, Angle = 301.29 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'event'
   },
 
   Casino = {
-  name  = "Garage Casino",
-  Pos   = { x = 910.81, y = 31.31, z = 79.22,  Angle = 327.0 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage Casino",
+    Pos   = { x = 910.81, y = 31.31, z = 79.22,  Angle = 327.0 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'casino'
   },	
 
   Assurance = {
-  name  = "Garage Assurance",
-  Pos   = { x = -851.22, y = -217.13, z = 36.59,  Angle = 302.85 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage Assurance",
+    Pos   = { x = -851.22, y = -217.13, z = 36.59,  Angle = 302.85 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
   },
 
   UpnAtom = {
-  name  = "Garage Up'N Atom",
-  Pos   = { x = 116.08, y = 282.66, z = 108.97,  Angle = 339.55 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage Up'N Atom",
+    Pos   = { x = 116.08, y = 282.66, z = 108.97,  Angle = 339.55 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'upnatom'
   },
 
   AvocatJonesWade = {
-  name  = "Garage Cabinet Avocat",
-  Pos   = { x = -150.97, y = -617.97, z = 32.42 - 0.98, Angle = 59.84 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage Cabinet Avocat",
+    Pos   = { x = -150.97, y = -617.97, z = 32.42 - 0.98, Angle = 59.84 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
   },
 
   avocat2 = {
-  name   = "Maze Bank Tour",
-  Pos    = { x = -50.44, y = -787.61, z = 43.07, Angle = 332.73 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Thomas", PedType = 6, Hash = "s_m_y_barman_01", x = -47.87, y = -782.94, z = 43.30,  Angle  = 239.75, Dict = "random@shop_gunstore", Anim = "_greeting" },
-  Action   = true,
+    name   = "Maze Bank Tour",
+    Pos    = { x = -50.44, y = -787.61, z = 43.07, Angle = 332.73 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Thomas", PedType = 6, Hash = "s_m_y_barman_01", x = -47.87, y = -782.94, z = 43.30,  Angle  = 239.75, Dict = "random@shop_gunstore", Anim = "_greeting" },
+    Action   = true,
   },
 
   Avocat = {
@@ -1361,35 +1357,38 @@ iV.Zones = {
     Pos   = { x = -589.97, y = -356.15, z = 34.09, Angle = 88.82 },
     TypeZone = iV.Blips.Garage,
     Action   = true,
+    IsJob = 'avocat2'
   },
 
   BOLINGBROKE = {
-  name  = "Garage BolingBroke",
-  Pos   = { x = 1663.80, y = 2604.74, z = 44.56,  Angle = 269.87 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Peterson", PedType = 6, Hash = "s_m_m_prisguard_01", x = 1673.08, y = 2604.56, z = 44.56,  Angle = 269.87 },
-  Action   = true,
+    name  = "Garage BolingBroke",
+    Pos   = { x = 1663.80, y = 2604.74, z = 44.56,  Angle = 269.87 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Peterson", PedType = 6, Hash = "s_m_m_prisguard_01", x = 1673.08, y = 2604.56, z = 44.56,  Angle = 269.87 },
+    Action   = true,
   },
 
   weazelplazaapt = {
-  name   = "Weazel Plaza Apartments",
-  Pos    = { x = -932.27, y = -460.66, z = 36.18, Angle = 33.20 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name   = "Weazel Plaza Apartments",
+    Pos    = { x = -932.27, y = -460.66, z = 36.18, Angle = 33.20 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
   },
 
   weazelnews = {
-  name   = "Garage Pro Weazel News" ,
-  Pos    = { x = -532.85, y = -889.78, z = 23.81, Angle = 182.54 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name   = "Garage Pro Weazel News" ,
+    Pos    = { x = -532.79, y = -891.89, z = 24.55-0.98, Angle = 182.54 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'journaliste'
   },
 
   weazelnews2 = {
-  name   = "Garage Weazel News" ,
-  Pos    = { x = -620.82, y = -917.03, z = 22.68, Angle = 181.06 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name   = "Garage Weazel News" ,
+    Pos    = { x = -620.82, y = -917.03, z = 22.68, Angle = 181.06 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = 'journaliste'
   },
 
   LSPD1bis = {
@@ -1424,18 +1423,18 @@ iV.Zones = {
   },
 
   LSPD2 = {
-  name  = "Garage Shérif - Nord",
-  Pos   = { x = 1829.74, y = 3684.97, z = 32.99, Angle = 30.92 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Samuel", PedType = 6, Hash = "csb_cop", x = 1825.16, y = 3691.88, z = 33.97-0.98,  Angle = 296.47, Scena = "WORLD_HUMAN_COP_IDLES" },
-  Action   = true,
+    name  = "Garage Shérif - Nord",
+    Pos   = { x = 1829.74, y = 3684.97, z = 32.99, Angle = 30.92 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Samuel", PedType = 6, Hash = "csb_cop", x = 1825.16, y = 3691.88, z = 33.97-0.98,  Angle = 296.47, Scena = "WORLD_HUMAN_COP_IDLES" },
+    Action   = true,
   },  
 
   BCSOPaleto = {
-  name  = "Garage BCSO - Paleto",
-  Pos   = { x = -454.63, y = 5994.13, z = 30.32, Angle = 43.07 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name  = "Garage BCSO - Paleto",
+    Pos   = { x = -454.63, y = 5994.13, z = 30.32, Angle = 43.07 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
   },
 
   PDP_Davis_Sheriff = {
@@ -1446,11 +1445,11 @@ iV.Zones = {
     },
 
   EMSNord = {
-  name	= "Garage EMS - Nord",
-  Pos   = { x = -284.98, y = 6326.83, z = 32.43-0.98,	Angle = 227.21 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Jones", PedType = 6, Hash = "s_m_m_paramedic_01", x = -279.84, y = 6321.54, z = 32.34-0.98,	Angle = 228.41 },
-  Action   = true,
+    name	= "Garage EMS - Nord",
+    Pos   = { x = -284.98, y = 6326.83, z = 32.43-0.98,	Angle = 227.21 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Jones", PedType = 6, Hash = "s_m_m_paramedic_01", x = -279.84, y = 6321.54, z = 32.34-0.98,	Angle = 228.41 },
+    Action   = true,
   },
 
   PillboxHill = {
@@ -1469,11 +1468,11 @@ iV.Zones = {
   },
 
   MountZonah = {
-  name  = "Mount Zonah Garage",
-  Pos   = { x = -483.85, y = -337.96, z = 34.30-1,  Angle = 264.90 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Papy", PedType = 4, Hash = "s_m_m_paramedic_01", x = -478.35, y = -338.79, z = 34.38-1, Angle = 170.13, Scena = "WORLD_HUMAN_SEAT_WALL" },
-  Action   = true,
+    name  = "Mount Zonah Garage",
+    Pos   = { x = -483.85, y = -337.96, z = 34.30-1,  Angle = 264.90 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Papy", PedType = 4, Hash = "s_m_m_paramedic_01", x = -478.35, y = -338.79, z = 34.38-1, Angle = 170.13, Scena = "WORLD_HUMAN_SEAT_WALL" },
+    Action   = true,
   },
 
   Eclypse_Hopital = {
@@ -1485,26 +1484,29 @@ iV.Zones = {
     },
 
   Mecano = {
-  name  = "Garage Mécano Auto",
-  Pos   = { x = -235.8, y = -1282.02, z = 31.29-0.98,  Angle = 270.50 },
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Brian", PedType = 5, Hash = "s_m_m_lathandy_01", x = -227.35, y = -1279.44, z = 31.3-0.98,  Angle = 175.85, Scena = "WORLD_HUMAN_LEANING" },
-  Action   = true,
+    name  = "Garage Mécano Auto",
+    Pos   = { x = -235.8, y = -1282.02, z = 31.29-0.98,  Angle = 270.50 },
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Brian", PedType = 5, Hash = "s_m_m_lathandy_01", x = -227.35, y = -1279.44, z = 31.3-0.98,  Angle = 175.85, Scena = "WORLD_HUMAN_LEANING" },
+    Action   = true,
+    IsJob = 'mecano'
   },
 
   Mecano2 = {
-  name  = "Garage Mécano Moto",
-  Pos   = { x = 1164.02, y = 2662.27, z = 37.97-0.98,  Angle = 271.44 }, 
-  TypeZone = iV.Blips.Garage,
-  Ped = { Text = "Billy", PedType = 4, Hash = "s_m_m_gaffer_01", x = 1175.22, y = 2661.34, z = 37.10,  Angle = 353.46, Scena = "WORLD_HUMAN_LEANING" },
-  Action   = true,
+    name  = "Garage Mécano Moto",
+    Pos   = { x = 1164.02, y = 2662.27, z = 37.97-0.98,  Angle = 271.44 }, 
+    TypeZone = iV.Blips.Garage,
+    Ped = { Text = "Billy", PedType = 4, Hash = "s_m_m_gaffer_01", x = 1175.22, y = 2661.34, z = 37.10,  Angle = 353.46, Scena = "WORLD_HUMAN_LEANING" },
+    Action   = true,
+    IsJob = 'mecano2'
   },
 
   coffeeshop = {
-  name   = "Garage Bean Machine",
-  Pos    = { x = 113.27, y = -1054.2, z = 29.2-0.98,  Angle  = 244.82 },
-  TypeZone = iV.Blips.Garage,
-  Action   = true,
+    name   = "Garage Bean Machine",
+    Pos    = { x = 134.39, y = -1053.5, z = 29.17-0.98,  Angle  = 156.41 },
+    TypeZone = iV.Blips.Garage,
+    Action   = true,
+    IsJob = "coffee",
   },
 
   EMS = {
