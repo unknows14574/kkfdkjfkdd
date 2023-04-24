@@ -1,0 +1,243 @@
+Config_esx_taxijob = {}
+Config_esx_taxijob.DrawDistance = 15.0-- = 100.0
+Config_esx_taxijob.NPCJobEarningsPlayer = 315
+Config_esx_taxijob.NPCJobEarningsEntreprise = 450 
+Config_esx_taxijob.MaxInService = 5
+Config_esx_taxijob.EnablePlayerManagement = true
+Config_esx_taxijob.EnableSocietyOwnedVehicles = false
+Config_esx_taxijob.Locale = 'fr'
+
+Config_esx_taxijob.Zones = {
+  TaxiActions = {
+    Pos   = {x = 894.59, y = -171.63, z = 74.68-1},
+    Size  = {x = 1.5, y = 1.5, z = 1.0},
+    Color = {r = 204, g = 204, b = 0},
+    Type  = 0
+  },
+  VehicleSpawnPoint = {
+    Pos   = {x = 897.21, y = -152.79, z = 76.56-1},
+    Size  = {x = 1.5, y = 1.5, z = 1.0},
+    Type  = -1
+  }
+}
+
+Config_esx_taxijob.JobLocations = {
+  {x = 293.476, y = -590.163, z = 42.7371, price = nil},
+  {x = 253.404, y = -375.86, z = 44.0819, price = nil},
+  {x = 120.808, y = -300.416, z = 45.1399, price = nil},
+  {x = -38.4132, y = -381.576, z = 38.3456, price = nil},
+  {x = -107.442, y = -614.377, z = 35.6703, price = nil},
+  {x = -252.292, y = -856.474, z = 30.5626, price = nil},
+  {x = -236.138, y = -988.382, z = 28.7749, price = nil},
+  {x = -276.989, y = -1061.18, z = 25.6853, price = nil},
+  {x = -576.451, y = -998.989, z = 21.785, price = nil},
+  {x = -602.798, y = -952.63, z = 21.6353, price = nil},
+  {x = -790.653, y = -961.855, z = 14.8932, price = nil},
+  {x = -912.588, y = -864.756, z = 15.0057, price = nil},
+  {x = -1069.77, y = -792.513, z = 18.8075, price = nil},
+  {x = -1306.94, y = -854.085, z = 15.0959, price = nil},
+  {x = -1468.51, y = -681.363, z = 26.178, price = nil},
+  {x = -1380.89, y = -452.7, z = 34.0843, price = nil},
+  {x = -1326.35, y = -394.81, z = 36.0632, price = nil},
+  {x = -1383.68, y = -269.985, z = 42.4878, price = nil},
+  {x = -1679.61, y = -457.339, z = 39.4048, price = nil},
+  {x = -1812.45, y = -416.917, z = 43.6734, price = nil},
+  {x = -2043.64, y = -268.291, z = 22.9927, price = nil},
+  {x = -2186.45, y = -421.595, z = 12.6776, price = nil},
+  {x = -1862.08, y = -586.528, z = 11.1747, price = nil},
+  {x = -1859.5, y = -617.563, z = 10.8788, price = nil},
+  {x = -1634.95, y = -988.302, z = 12.6241, price = nil},
+  {x = -1283.99, y = -1154.16, z = 5.30998, price = nil},
+  {x = -1126.47, y = -1338.08, z = 4.63434, price = nil},
+  {x = -867.907, y = -1159.67, z = 5.00795, price = nil},
+  {x = -847.55, y = -1141.38, z = 6.27591, price = nil},
+  {x = -722.625, y = -1144.6, z = 10.2176, price = nil},
+  {x = -575.503, y = -318.446, z = 34.5273, price = nil},
+  {x = -592.309, y = -224.853, z = 36.1209, price = nil},
+  {x = -559.594, y = -162.873, z = 37.7547, price = nil},
+  {x = -534.992, y = -65.6695, z = 40.634, price = nil},
+  {x = -758.234, y = -36.6906, z = 37.2911, price = nil},
+  {x = -1375.88, y = 20.9516, z = 53.2255, price = nil},
+  {x = -1320.25, y = -128.018, z = 48.097, price = nil},
+  {x = -1285.71, y = 294.287, z = 64.4619, price = nil},
+  {x = -1245.67, y = 386.533, z = 75.0908, price = nil},
+  {x = -760.355, y = 285.015, z = 85.0667, price = nil},
+  {x = -625.13, y = 280.17, z = 81.6-0.98, price = nil},
+  {x = -563.609, y = 267.962, z = 82.5116, price = nil},
+  {x = -486.806, y = 271.977, z = 82.8187, price = nil},
+  {x = 88.295, y = 250.867, z = 108.188, price = nil},
+  {x = 234.087, y = 344.678, z = 105.018, price = nil},
+  {x = 434.963, y = 96.707, z = 99.1713, price = nil},
+  {x = 482.617, y = -142.533, z = 58.1936, price = nil},
+  {x = 762.651, y = -786.55, z = 25.8915, price = nil},
+  {x = 809.06, y = -1290.8, z = 25.7946, price = nil},
+  {x = 490.819, y = -1751.37, z = 28.0987, price = nil},
+  {x = 432.351, y = -1856.11, z = 27.0352, price = nil},
+  {x = 164.348, y = -1734.54, z = 28.8982, price = nil},
+  {x = -101.41, y = -1521.44, z = 32.66, price = nil},
+  {x = 52.2241, y = -1566.65, z = 29.006, price = nil},
+  {x = 310.222, y = -1376.76, z = 31.4442, price = nil},
+  {x = 181.967, y = -1332.79, z = 28.8773, price = nil},
+  {x = -74.6091, y = -1100.64, z = 25.738, price = nil},
+  {x = -887.045, y = -2187.46, z = 8.13248, price = nil},
+  {x = -749.584, y = -2296.59, z = 12.4627, price = nil},
+  {x = -1064.83, y = -2560.66, z = 19.6811, price = nil},
+  {x = -1033.44, y = -2730.24, z = 19.6868, price = nil},
+  {x = -1028.74, y = -2672.91, z = 13.83-0.98, price = nil},
+  {x = 797.354, y = -174.423, z = 72.708, price = nil},
+  {x = 508.156, y = -117.908, z = 60.78, price = nil},
+  {x = 159.458, y = -27.555, z = 67.38, price = nil},
+  {x = -36.382, y = -106.912, z = 56.982, price = nil},
+  {x = -355.801, y = -270.404, z = 33.011, price = nil},
+  {x = -831.196, y = -76.871, z = 37.323, price = nil},
+  {x = -1038.707, y = -214.593, z = 37, price = nil},
+  {x = 1918.448, y = 3691.41, z = 32.261, price = nil},
+  {x = 1820.217, y = 3697.115, z = 33.493, price = nil},
+  {x = 1619.323, y = 3827.162, z = 34.482, price = nil},
+  {x = 1418.628, y = 3602.243, z = 34.511, price = nil},
+  {x = 1944.858, y = 3856.252, z = 31.741, price = nil},
+  {x = 2285.278, y = 3839.444, z = 34.023, price = nil},
+  {x = 2760.945, y = 3387.813, z = 55.659, price = nil},
+  {x = 1952.819, y = 2627.731, z = 45.368, price = nil},
+  {x = 1051.414, y = 474.833, z = 93.653, price = nil},
+  {x = 866.393, y = 17.635, z = 78.654, price = nil},
+  {x = 318.985, y = 167.41, z = 103.335, price = nil},
+  {x = 88.836, y = 254.054, z = 108.236, price = nil},
+  {x = -44.852, y = 70.414, z = 72.437, price = nil},
+  {x = -115.496, y = 84.333, z = 70.792, price = nil},
+  {x = -384.806, y = 226.868, z = 83.548, price = nil},
+  {x = -578.669, y = 139.085, z = 61.337, price = nil},
+  {x = -651.334, y = -584.879, z = 34.116, price = nil},
+  {x = -571.847, y = -1195.648, z = 17.869, price = nil},
+  {x = -1513.271, y = -670.039, z = 28.362, price = nil},
+  {x = -1297.484, y = -654.913, z = 26.123, price = nil},
+  {x = -1645.546, y = 144.571, z = 61.664, price = nil},
+  {x = -1160.618, y = 744.418, z = 154.571, price = nil},
+  {x = -798.09, y = 831.699, z = 204.351, price = nil}
+}
+
+Config_esx_taxijob.pedHash =  {
+  1074457665, 
+  -67533719,
+  -85696186,
+  1520708641,
+  1206185632,
+  1535236204,
+  1055701597,
+  -39239064,
+  1657546978,
+  1021093698,
+  361513884,
+  1270514905,
+  797459875,
+  -771835772,
+  1631478380,
+  -1552967674,
+  -927261102,
+  -619494093,
+  767028979,
+  1464257942,
+  1250841910,
+  -1613485779,
+  -1022036185,
+  -1106743555,
+  1546450936,
+	1146800212,
+	1720428295,
+  1984382277,
+	848542878,
+	-1954728090,
+  532905404
+}
+
+Config_esx_taxijob.Txt = {
+  ['taking_service'] = 'prise de service : ',
+  ['spawn_veh'] = 'sortir véhicule',
+  ['remove_comp_money'] = 'retirer argent société',
+  ['deposit_money'] = 'déposer argent',
+  ['launder_money'] = 'blanchir argent',
+  ['full_service'] = 'service complet : ',
+  ['withdraw_amount'] = 'montant du retrait',
+  ['amount_invalid'] = 'montant invalide',
+  ['deposit_amount'] = 'montant du dépôt',
+  ['launder_amount'] = 'montant à blanchir',
+  ['press_to_open'] = 'appuyez sur ~INPUT_CONTEXT~ pour accéder au menu',
+  ['billing'] = 'facturation',
+  ['invoice_amount'] = 'montant de la facture',
+  ['no_players_near'] = 'aucun joueur à proximité',
+  ['store_veh'] = 'appuyez sur ~INPUT_CONTEXT~ pour ranger le véhicule',
+  ['drive_search_pass'] = 'conduisez à la recherche de ~y~passagers',
+  ['customer_found'] = 'vous avez ~g~trouvé~s~ un client, conduisez jusqu\'à ce dernier',
+  ['clientFtext_esx_taxijobnconcious'] = 'Votre client a ~r~annulé~w~ la course. Cherchez-en un autre.',
+  ['arrive_dest'] = 'Merci pour la course. Bonne journée',
+  ['take_me_to_near'] = '~w~Emmenez-moi à~y~ %s~w~, près de~y~ %s',
+  ['take_me_to'] = '~w~Emmenez-moi à~y~ %s',
+  ['close_to_client'] = 'vous êtes à proximité du client, approchez-vous de lui',
+  ['return_to_veh'] = 'veuillez remonter dans votre véhicule pour continuer la mission',
+  ['only_taxi'] = 'vous ne pouvez ranger que les taxi',
+  ['must_in_taxi'] = 'vous devez être dans un taxi pour commencer la mission',
+  ['must_in_vehicle'] = 'vous devez être dans un véhicule pour commencer la mission',
+  ['have_earned'] = 'vous avez gagné ~g~$',
+  ['comp_earned'] = 'votre société a gagné ~g~$',
+  ['deposit_stock'] = 'Déposer Stock',
+  ['take_stock'] = 'Prendre Stock',
+  ['boss_actions'] = 'Action Patron',
+  ['mission_complete'] = 'Mission terminée',
+  ['quantity'] = 'Quantité',
+  ['quantity_invalid'] = 'Quantité invalide',
+  ['inventory'] = 'Inventaire',
+  ['taxi_client'] = 'client Taxi',
+  ['have_withdrawn'] = 'Vous avez retiré x',
+  ['added'] = 'Vous avez ajouté x',
+}
+
+
+-- INTERIM JOB Configuration
+
+Config_esx_taxijob.interimJobConfiguration = {
+  isEnable = true,
+  getJobAndVehicle = {
+    Pos = {
+      x = 908.41,
+      y = -176.08,
+      z = 74.17 - 0.98
+    },
+    heading = 244.52,
+    text = 'Appuyez sur ~y~E~s~ pour commencer a travailler pour les taxis',
+    drawMarkerDistance = 5.0,
+    drawTextDistance = 2.0
+  },
+  jobVehicleSpawn = {
+    Pos = {
+      x = 900.54,
+      y = -179.05,
+      z = 73.49 - 0.98,
+    },
+    heading = 237.94
+  },
+  giveBackJobAndVehicle = {
+    Pos ={
+      x = 916.79,
+      y = -161.4,
+      z = 74.77 - 0.98
+    },
+    text = 'Appuyez sur ~y~E~s~ pour rendre ton taxi et être payé',
+    drawMarkerDistance = 21.0,
+    drawTextDistance = 2.0
+  },
+  jobVehicleModel = 'taxi',
+  jobVehicleHash = GetHashKey('taxi'),
+  plateText = 'TAXI',
+  jobBillingPrice = 500.0,
+  locales = {
+    getYourCar = 'Bonjour. Voici ton véhicule. Prend en soin car il faut que tu me le ramène afin d\'être payé.',
+    howItWork1 = 'Depuis ton Bipper ~b~F6~w~ tu peux facturer une client (joueur). Assure toi qu\'il paye sa facture.',
+    howItWork2 = 'Tu peux aussi demarrer des ~b~courses citoyenne~w~. Bonne journée.',
+    payMessage = 'Voila ta paye :~g~ ',
+    finishWork = 'Tu as bien bossé. Je te reprend les clefs et ton badge. Bonne journée.',
+    finishWorkWithoutCarP1 = 'T\'as pas ramené le taxi, tu seras payé que la moitié désolé.',
+    finishWorkWithoutCarP2 = 'Je te reprend ton badge. La prochaine fois ramène moi le taxi. Bonne journée.',
+    finishWorkIllegalP1 = 'On m\'a parlé de toi, et pas en bien. Je garde une partie et je te dénonce pas.',
+    finishWorkIllegalP2 = 'Je te reprend ton badge. Bonne journée.'
+  }
+}
