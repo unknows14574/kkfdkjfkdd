@@ -1,0 +1,18 @@
+il va y avoir les visites medical ppa
+qu'il faudrait faire c'est un questionnaire pour cerner la personnalité des clients et les valider avant  de les renvoyer au lspd
+nom: Tom
+prénom: Héritier
+date de naissance: 25/12/2000
+métier: Abatteur
+antécédent médicaux (cancer, allergie ...): Non
+fumeur: Non fumeur
+consommations de drogue: Non
+alcool fréquence: Occasionnelment avec moderation
+groupe sanguin plus prise de sanga faire: B+
+antécédent psychologique: non
+traitement médicamenteux en cours: non
+avez vous déjà utiliser une arme?: oui 
+dans quelle circonstance: Dans ma profession en tant que abatteur et dans un stand de tire.
+
+moi docteur Dino Leoni je valide le PPA de mon client Tom Héritier
+date et heure: 07/08/2019 à 21:35
