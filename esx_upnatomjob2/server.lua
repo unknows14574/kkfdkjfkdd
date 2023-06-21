@@ -225,7 +225,7 @@ function rWater()
     end
 end
 
-TriggerEvent('es:addCommand', 'playupnatom', function(source, args, user)
+RegisterCommand('playupnatom', function(source, args, user)
 	local xPlayer = ESX.GetPlayerFromId(source)
 	if (xPlayer.job ~= nil and xPlayer.job.name == 'upnatom') then
     TriggerClientEvent("esx_upnatomjob:playmusic", -1, args[1])
@@ -233,7 +233,7 @@ TriggerEvent('es:addCommand', 'playupnatom', function(source, args, user)
 	end	
 end)
 
-TriggerEvent('es:addCommand', 'pauseupnatom', function(source, args, user)
+RegisterCommand('pauseupnatom', function(source, args, user)
 	local xPlayer = ESX.GetPlayerFromId(source)
 	if (xPlayer.job ~= nil and xPlayer.job.name == 'upnatom') then
 		print(pause)
@@ -247,7 +247,7 @@ TriggerEvent('es:addCommand', 'pauseupnatom', function(source, args, user)
 	end	
 end)
 
-TriggerEvent('es:addCommand', 'volumeupnatom', function(source, args, user)
+RegisterCommand('volumeupnatom', function(source, args, user)
 	local xPlayer = ESX.GetPlayerFromId(source)
 	if (xPlayer.job ~= nil and xPlayer.job.name == 'upnatom') then
 		print(args[1])
@@ -255,7 +255,7 @@ TriggerEvent('es:addCommand', 'volumeupnatom', function(source, args, user)
 	end	
 end)
 
-TriggerEvent('es:addCommand', 'stopupnatom', function(source, args, user)
+RegisterCommand('stopupnatom', function(source, args, user)
 	local xPlayer = ESX.GetPlayerFromId(source)
 	if (xPlayer.job ~= nil and xPlayer.job.name == 'upnatom') then
 		TriggerClientEvent("esx_upnatomjob:stopupnatom", -1)
